@@ -36,3 +36,11 @@ listaVehiculos = tuple(listaVehiculos) # asignar a la tupla la lista modificada 
 
 [print(tecnologia) for tecnologia in vehiculos]
 
+# Join de truplas (unir tuplas)
+
+citricos  = ( "naranja", "limon", "popmelo")
+tropicales = ("papaya", "coco")
+
+frutas = citricos + tropicales  # con esto unimos las dos tuplas en una sola tupla 
+
+print(frutas)
