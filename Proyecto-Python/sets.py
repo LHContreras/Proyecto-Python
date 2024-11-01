@@ -62,4 +62,8 @@ booleanos_intersection = a.intersection(booleanos) # La unisca interseccion es T
 d1 = a.difference(b)
 d2 = a - b # es exactamente lo mismo que usar difference
 
+# Diferencias simétricas: devolver los elementos que están en uno de los conjuntos pero no en ambos
+dsl = a.symmetric_difference(b)
+dsl2 = a ^ b # es exactamente lo mismo que usar symmetric_difference
+
 print(d1)
